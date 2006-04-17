@@ -25,10 +25,10 @@ French resources for SeaMonkey.
 Francuskie pliki jêzykowe dla SeaMonkeya.
 
 %prep
-%setup -q -c -T
-unzip %{SOURCE0}
+%setup -q -c
 install %{SOURCE1} .
-./gen-installed-chrome.sh locale bin/chrome/{FR,fr-FR,fr-unix}.jar > lang-fr-installed-chrome.txt
+./gen-installed-chrome.sh locale bin/chrome/{FR,fr-FR,fr-unix}.jar \
+	> lang-fr-installed-chrome.txt
 
 %install
 rm -rf $RPM_BUILD_ROOT
