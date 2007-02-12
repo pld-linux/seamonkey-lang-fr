@@ -2,7 +2,7 @@
 %define	_reg	FR
 %define	_lare	%{_lang}-%{_reg}
 Summary:	French resources for SeaMonkey
-Summary(pl.UTF-8):   Francuskie pliki językowe dla SeaMonkeya
+Summary(pl.UTF-8):	Francuskie pliki językowe dla SeaMonkeya
 Name:		seamonkey-lang-%{_lang}
 Version:	1.0.7
 Release:	1
