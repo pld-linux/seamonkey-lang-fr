@@ -4,12 +4,12 @@
 Summary:	French resources for SeaMonkey
 Summary(pl.UTF-8):	Francuskie pliki językowe dla SeaMonkeya
 Name:		seamonkey-lang-%{_lang}
-Version:	1.1.1
+Version:	1.1.4
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/contrib-localized/seamonkey-%{version}.%{_lare}.langpack.xpi
-# Source0-md5:	8f2b9a9c3474919506072fdefcc11a07
+# Source0-md5:	d5d726e416c4706ac85f552aaf2bcdbb
 Source1:	http://www.mozilla-enigmail.org/downloads/lang/0.9x/enigmail-%{_lare}-0.9x.xpi
 # Source1-md5:	8f4c3c346cdaa6b8f9a698625bd598c6
 Source2:	gen-installed-chrome.sh
