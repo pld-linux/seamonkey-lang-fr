@@ -5,7 +5,7 @@ Summary:	French resources for SeaMonkey
 Summary(pl.UTF-8):	Francuskie pliki językowe dla SeaMonkeya
 Name:		seamonkey-lang-%{_lang}
 Version:	1.1.6
-Release:	1
+Release:	2
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		X11/Applications/Networking
 Source0:	http://releases.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/contrib-localized/seamonkey-%{version}.%{_lare}.langpack.xpi
@@ -46,7 +46,6 @@ install bin/chrome/{%{_reg},%{_lare},%{_lang}-unix}.jar $RPM_BUILD_ROOT%{_chrome
 install chrome/enigmail-%{_lare}.jar $RPM_BUILD_ROOT%{_chromedir}
 install lang-%{_lang}-installed-chrome.txt $RPM_BUILD_ROOT%{_chromedir}
 cp -r bin/{defaults,searchplugins} $RPM_BUILD_ROOT%{_datadir}/seamonkey
-cp -r bin/components/myspell $RPM_BUILD_ROOT%{_datadir}/seamonkey
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -69,4 +68,3 @@ rm -rf $RPM_BUILD_ROOT
 #%{_datadir}/seamonkey/defaults/isp/%{_reg}
 %{_datadir}/seamonkey/defaults/messenger/%{_reg}
 %{_datadir}/seamonkey/defaults/profile/%{_reg}
-%{_datadir}/seamonkey/myspell/*
