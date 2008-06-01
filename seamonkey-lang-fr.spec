@@ -7,7 +7,7 @@ Name:		seamonkey-lang-%{_lang}
 Version:	1.1.8
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
-Group:		X11/Applications/Networking
+Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/contrib-localized/seamonkey-%{version}.%{_lare}.langpack.xpi
 # Source0-md5:	710eac10cd21750d6f574d859ddb8a23
 Source1:	http://www.mozilla-enigmail.org/download/release/0.95/enigmail-%{_lare}-0.95.xpi
